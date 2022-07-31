@@ -8,6 +8,9 @@ if (!gl)
 throw new Error('WebGL not supported');
 }
 
+const matrix = glMatrix.mat4.create();
+console.log(matrix);
+
 // create attribute data
 const vertexData = [
 	0, 1, 0, 
